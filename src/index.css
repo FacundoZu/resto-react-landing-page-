@@ -7,6 +7,10 @@ html {
   scroll-behavior: smooth;
 }
 
+body {
+  overflow-x: hidden;
+}
+
 /* Personalizar scrollbar */
 ::-webkit-scrollbar {
   width: 8px;

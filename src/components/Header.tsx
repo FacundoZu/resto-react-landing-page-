@@ -32,16 +32,16 @@ const Header: React.FC = () => {
   };
 
   return (
-    <motion.header 
-      className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${
-        scrolled ? 'bg-black/90 backdrop-blur-md py-2' : 'bg-transparent py-4'
-      }`}
+    <motion.header
+      className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${scrolled ? 'bg-black/90 backdrop-blur-md py-2' : 'bg-transparent py-4'
+        }`}
       initial={{ y: -100 }}
       animate={{ y: 0 }}
       transition={{ duration: 0.8, ease: "easeOut" }}
     >
-      <div className="container mx-auto px-4 flex items-center justify-between">
-        <motion.div 
+      <div className="w-4/5 max-w-7xl mx-auto px-4 flex items-center justify-between">
+
+        <motion.div
           className="flex items-center space-x-2 cursor-pointer"
           whileHover={{ scale: 1.05 }}
           transition={{ type: "spring", stiffness: 400, damping: 17 }}
@@ -79,8 +79,8 @@ const Header: React.FC = () => {
 
         {/* Mobile Menu */}
         {isOpen && (
-          <motion.div 
-            className="absolute top-full left-0 right-0 bg-black/95 backdrop-blur-md md:hidden"
+          <motion.div
+            className="absolute top-full inset-x-0 bg-black/95 backdrop-blur-md md:hidden overflow-hidden"
             initial={{ opacity: 0, height: 0 }}
             animate={{ opacity: 1, height: 'auto' }}
             exit={{ opacity: 0, height: 0 }}

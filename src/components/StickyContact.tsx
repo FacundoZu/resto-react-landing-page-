@@ -42,7 +42,7 @@ const StickyContact: React.FC = () => {
               onClick={() => setIsExpanded(!isExpanded)}
               whileHover={{ scale: 1.1 }}
               whileTap={{ scale: 0.9 }}
-              animate={{ scale: [1, 1.05, 1] }}
+              animate={{ scale: [1, 1.02, 1] }}
               transition={{ duration: 2, repeat: Infinity }}
             >
               <div className="flex items-center space-x-2 px-6 py-4">

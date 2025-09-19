@@ -68,7 +68,7 @@ const Testimonials: React.FC = () => {
           {testimonials.map((testimonial, index) => (
             <motion.div
               key={index}
-              className="bg-gray-800/50 backdrop-blur-sm p-8 rounded-xl border border-gray-700 hover:border-orange-500 transition-all duration-300 relative"
+              className="bg-gray-800/50 backdrop-blur-sm p-8 rounded-xl border border-gray-700 hover:border-orange-500 transition-all duration-300 relative overflow-hidden"
               initial={{ opacity: 0, y: 30 }}
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
