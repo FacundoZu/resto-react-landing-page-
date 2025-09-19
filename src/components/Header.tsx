@@ -44,7 +44,7 @@ const Header: React.FC = () => {
         <motion.div
           className="flex items-center space-x-2 cursor-pointer"
           whileHover={{ scale: 1.05 }}
-          transition={{ type: "spring", stiffness: 400, damping: 17 }}
+          transition={{ type: "spring", stiffness: 400, damping: 10 }}
           onClick={() => scrollToSection('#inicio')}
         >
           <ChefHat className="text-orange-500 w-8 h-8" />

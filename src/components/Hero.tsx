@@ -29,27 +29,27 @@ const Hero: React.FC = () => {
     <section id="inicio" className="relative min-h-screen flex items-center justify-center overflow-hidden bg-gradient-to-br from-black via-gray-900 to-orange-900">
       {/* Animated Background Elements */}
       <div className="absolute inset-0">
-        <motion.div 
+        <motion.div
           className="absolute top-20 left-10 text-orange-500/20 w-16 h-16"
           animate={floatingAnimation}
         >
           <Utensils className="w-full h-full" />
         </motion.div>
-        <motion.div 
+        <motion.div
           className="absolute top-40 right-20 text-orange-400/20 w-12 h-12"
-          animate={{ ...floatingAnimation, transition: { ...floatingAnimation.transition, delay: 1 } }}
+          animate={rotatingAnimation}
         >
           <Star className="w-full h-full" />
         </motion.div>
-        <motion.div 
+        <motion.div
           className="absolute bottom-32 left-20 text-orange-300/20 w-14 h-14"
           animate={{ ...floatingAnimation, transition: { ...floatingAnimation.transition, delay: 2 } }}
         >
           <Wine className="w-full h-full" />
         </motion.div>
-        <motion.div 
+        <motion.div
           className="absolute top-1/2 right-10 text-orange-600/20 w-20 h-20"
-          animate={rotatingAnimation}
+          animate={{ ...floatingAnimation, transition: { ...floatingAnimation.transition, delay: 1 } }}
         >
           <div className="w-full h-full border-4 border-current rounded-full" />
         </motion.div>
@@ -81,11 +81,11 @@ const Hero: React.FC = () => {
       {/* Main Content */}
       <div className="relative z-10 text-center px-4 max-w-4xl mx-auto">
         {/* 3D Animated Icon */}
-        <motion.div 
+        <motion.div
           className="mb-8 mx-auto w-32 h-32 relative"
           initial={{ scale: 0, rotateY: 0 }}
           animate={{ scale: 1, rotateY: 360 }}
-          transition={{ 
+          transition={{
             scale: { duration: 1, ease: "easeOut" },
             rotateY: { duration: 2, ease: "easeInOut" }
           }}
@@ -101,7 +101,7 @@ const Hero: React.FC = () => {
             }}
             transition={{ duration: 2, repeat: Infinity }}
           />
-          <motion.div 
+          <motion.div
             className="absolute inset-4 bg-white rounded-full flex items-center justify-center"
             animate={floatingAnimation}
           >
@@ -110,7 +110,7 @@ const Hero: React.FC = () => {
         </motion.div>
 
         {/* Main Title */}
-        <motion.h1 
+        <motion.h1
           className="text-6xl md:text-8xl font-bold text-white mb-6"
           initial={{ opacity: 0, y: 50 }}
           animate={{ opacity: 1, y: 0 }}
@@ -134,7 +134,7 @@ const Hero: React.FC = () => {
         </motion.h1>
 
         {/* Subtitle */}
-        <motion.p 
+        <motion.p
           className="text-xl md:text-2xl text-gray-300 mb-8 max-w-2xl mx-auto"
           initial={{ opacity: 0, y: 30 }}
           animate={{ opacity: 1, y: 0 }}
@@ -144,7 +144,7 @@ const Hero: React.FC = () => {
         </motion.p>
 
         {/* CTA Buttons */}
-        <motion.div 
+        <motion.div
           className="flex flex-col sm:flex-row gap-4 justify-center items-center"
           initial={{ opacity: 0, y: 30 }}
           animate={{ opacity: 1, y: 0 }}
@@ -153,8 +153,8 @@ const Hero: React.FC = () => {
           <motion.button
             onClick={() => scrollToSection('#menu')}
             className="bg-gradient-to-r from-orange-500 to-red-600 text-white px-8 py-4 rounded-full text-lg font-semibold shadow-xl"
-            whileHover={{ 
-              scale: 1.05, 
+            whileHover={{
+              scale: 1.05,
               boxShadow: "0 20px 40px rgba(249, 115, 22, 0.4)",
               background: "linear-gradient(45deg, #f97316, #dc2626)"
             }}
@@ -173,7 +173,7 @@ const Hero: React.FC = () => {
         </motion.div>
 
         {/* Scroll Indicator */}
-        <motion.div 
+        <motion.div
           className="absolute -bottom-36 left-1/2 -translate-x-1/2"
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
