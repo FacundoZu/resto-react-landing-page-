@@ -21,7 +21,7 @@ const Location: React.FC = () => {
   ];
 
   return (
-    <section id="ubicacion" className="py-20 bg-gradient-to-br from-gray-900 via-black to-gray-800">
+    <section id="ubicacion" className="py-20 bg-gradient-to-bl from-orange-900/20 via-black to-gray-800">
       <div className="container mx-auto px-4">
         <motion.div 
           className="text-center mb-16"

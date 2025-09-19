@@ -40,7 +40,7 @@ const Events: React.FC = () => {
   ];
 
   return (
-    <section id="eventos" className="py-20 bg-gradient-to-br from-gray-900 via-black to-gray-800">
+    <section id="eventos" className="py-20 bg-gradient-to-br from-orange-900/20 via-gray-900 to-black">
       <div className="container mx-auto px-4">
         <motion.div 
           className="text-center mb-16"

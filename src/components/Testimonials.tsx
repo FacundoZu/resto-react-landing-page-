@@ -35,7 +35,7 @@ const Testimonials: React.FC = () => {
   ];
 
   return (
-    <section className="py-20 bg-gradient-to-br from-black via-gray-900 to-orange-900/20">
+    <section className="py-20 bg-gradient-to-br from-gray-900 via-black to-orange-900/20">
       <div className="container mx-auto px-4">
         <motion.div 
           className="text-center mb-16"

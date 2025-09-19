@@ -120,7 +120,7 @@ const Menu: React.FC = () => {
   };
 
   return (
-    <section id="menu" className="py-20 bg-gradient-to-br from-black via-gray-900 to-orange-900/20">
+    <section id="menu" className="py-20 bg-gradient-to-bl from-black via-black to-gray-900">
       <div className="container mx-auto px-4">
         {/* Section Header */}
         <motion.div 
