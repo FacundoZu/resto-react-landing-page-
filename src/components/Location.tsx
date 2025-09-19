@@ -6,7 +6,7 @@ const Location: React.FC = () => {
   const contactInfo = [
     { icon: <Phone className="w-5 h-5" />, label: "Teléfono", value: "+56 9 1234 5678" },
     { icon: <Mail className="w-5 h-5" />, label: "Email", value: "reservas@elsaborautentico.cl" },
-    { icon: <MapPin className="w-5 h-5" />, label: "Dirección", value: "Av. Las Condes 1234, Las Condes, Santiago" }
+    { icon: <MapPin className="w-5 h-5" />, label: "Dirección", value: "Av. Las Condes 1234, Las Condes, Salta" }
   ];
 
   const schedules = [
@@ -17,7 +17,7 @@ const Location: React.FC = () => {
 
   const transportInfo = [
     { icon: <Car className="w-5 h-5" />, text: "Estacionamiento gratuito disponible" },
-    { icon: <Train className="w-5 h-5" />, text: "Metro Las Condes - 2 cuadras" }
+    { icon: <Train className="w-5 h-5" />, text: "5A - 2 cuadras" }
   ];
 
   return (

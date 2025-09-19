@@ -8,7 +8,7 @@ const Hero: React.FC = () => {
     transition: {
       duration: 3,
       repeat: Infinity,
-      ease: "easeInOut"
+      ease: "easeInOut" as const
     }
   };
 
@@ -17,7 +17,7 @@ const Hero: React.FC = () => {
     transition: {
       duration: 20,
       repeat: Infinity,
-      ease: "linear"
+      ease: "linear" as const
     }
   };
 
@@ -174,7 +174,7 @@ const Hero: React.FC = () => {
 
         {/* Scroll Indicator */}
         <motion.div 
-          className="absolute bottom-4 left-1/2 -translate-x-1/2"
+          className="absolute -bottom-36 left-1/2 -translate-x-1/2"
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
           transition={{ delay: 2 }}
