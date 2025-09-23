@@ -174,7 +174,7 @@ const Hero: React.FC = () => {
 
         {/* Scroll Indicator */}
         <motion.div
-          className="absolute -bottom-36 left-1/2 -translate-x-1/2"
+          className="absolute -bottom-32 left-1/2 -translate-x-1/2"
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
           transition={{ delay: 2 }}
@@ -186,7 +186,7 @@ const Hero: React.FC = () => {
           >
             <motion.div
               className="w-1 h-3 bg-orange-500 rounded-full mt-2"
-              animate={{ y: [0, 16, 0] }}
+              animate={{ y: [0, 14, 0] }}
               transition={{ duration: 2, repeat: Infinity }}
             />
           </motion.div>
