@@ -4,32 +4,32 @@ import { motion } from 'framer-motion';
 const Gallery: React.FC = () => {
   const galleryImages = [
     {
-      url: "https://img-wrapper.vercel.app/image?url=https://placehold.co/500x400/1a1a1a/f97316/png?text=Ambiente",
+      url: "/imgs/gallery/ambiente.webp",
       title: "Ambiente Acogedor",
       description: "Interior elegante y moderno"
     },
     {
-      url: "https://img-wrapper.vercel.app/image?url=https://placehold.co/500x400/1a1a1a/f97316/png?text=Platos",
+      url: "/imgs/menu/cordero.webp",
       title: "Platos Gourmet",
       description: "Presentación excepcional"
     },
     {
-      url: "https://img-wrapper.vercel.app/image?url=https://placehold.co/500x400/1a1a1a/f97316/png?text=Cocina",
+      url: "/imgs/gallery/cocina.webp",
       title: "Cocina Abierta",
       description: "Experiencia interactiva"
     },
     {
-      url: "https://img-wrapper.vercel.app/image?url=https://placehold.co/500x400/1a1a1a/f97316/png?text=Eventos",
+      url: "/imgs/gallery/eventos.webp",
       title: "Eventos Especiales",
       description: "Momentos únicos"
     },
     {
-      url: "https://img-wrapper.vercel.app/image?url=https://placehold.co/500x400/1a1a1a/f97316/png?text=Terraza",
+      url: "/imgs/gallery/terraza.webp",
       title: "Terraza",
       description: "Vista espectacular"
     },
     {
-      url: "https://img-wrapper.vercel.app/image?url=https://placehold.co/500x400/1a1a1a/f97316/png?text=Bar",
+      url: "/imgs/gallery/bar.webp",
       title: "Bar Premium",
       description: "Cócteles artesanales"
     }

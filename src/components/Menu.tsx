@@ -19,21 +19,21 @@ const Menu: React.FC = () => {
         description: 'Finas láminas de res con rúcula, parmesano y aceite de trufa',
         price: '$18.990',
         special: 'bestseller',
-        image: 'https://img-wrapper.vercel.app/image?url=https://placehold.co/400x300/1a1a1a/f97316/png?text=Carpaccio'
+        image: '/imgs/menu/carpacho.webp'
       },
       {
         name: 'Ceviche de la Casa',
         description: 'Pescado fresco marinado en leche de tigre con sweet potato',
         price: '$16.990',
         special: 'chef',
-        image: 'https://img-wrapper.vercel.app/image?url=https://placehold.co/400x300/1a1a1a/f97316/png?text=Ceviche'
+        image: '/imgs/menu/ceviche.webp'
       },
       {
         name: 'Bruschetta Gourmet',
         description: 'Pan artesanal con tomate confitado, burrata y albahaca',
         price: '$12.990',
         special: 'vegetarian',
-        image: 'https://img-wrapper.vercel.app/image?url=https://placehold.co/400x300/1a1a1a/f97316/png?text=Bruschetta'
+        image: '/imgs/menu/bruschetta.webp'
       }
     ],
     principales: [
@@ -42,21 +42,21 @@ const Menu: React.FC = () => {
         description: 'Salmón atlántico con risotto de espárragos y salsa hollandaise',
         price: '$28.990',
         special: 'chef',
-        image: 'https://img-wrapper.vercel.app/image?url=https://placehold.co/400x300/1a1a1a/f97316/png?text=Salmón'
+        image: '/imgs/menu/salmon.webp'
       },
       {
         name: 'Cordero Patagónico',
-        description: 'Rack de cordero con puré de papas trufado y vegetables',
+        description: 'Rack de cordero con vegetales',
         price: '$32.990',
         special: 'bestseller',
-        image: 'https://img-wrapper.vercel.app/image?url=https://placehold.co/400x300/1a1a1a/f97316/png?text=Cordero'
+        image: '/imgs/menu/cordero.webp'
       },
       {
         name: 'Pasta Artesanal',
         description: 'Ravioles de ricotta y espinaca con salsa de mantequilla y salvia',
         price: '$22.990',
         special: 'vegetarian',
-        image: 'https://img-wrapper.vercel.app/image?url=https://placehold.co/400x300/1a1a1a/f97316/png?text=Pasta'
+        image: '/imgs/menu/ravioles.webp'
       }
     ],
     postres: [
@@ -65,14 +65,14 @@ const Menu: React.FC = () => {
         description: 'Clásico italiano con café expresso y mascarpone artesanal',
         price: '$9.990',
         special: 'bestseller',
-        image: 'https://img-wrapper.vercel.app/image?url=https://placehold.co/400x300/1a1a1a/f97316/png?text=Tiramisú'
+        image: '/imgs/menu/tiramisu.webp'
       },
       {
         name: 'Chocolate Lava Cake',
         description: 'Volcán de chocolate belga con helado de vainilla',
         price: '$11.990',
         special: 'chef',
-        image: 'https://img-wrapper.vercel.app/image?url=https://placehold.co/400x300/1a1a1a/f97316/png?text=Lava+Cake'
+        image: '/imgs/menu/lavacake.webp'
       }
     ],
     bebidas: [
@@ -81,14 +81,14 @@ const Menu: React.FC = () => {
         description: 'Cabernet Sauvignon del Valle de Maipo, cosecha 2020',
         price: '$25.990',
         special: 'bestseller',
-        image: 'https://img-wrapper.vercel.app/image?url=https://placehold.co/400x300/1a1a1a/f97316/png?text=Vino'
+        image: '/imgs/menu/vino.webp'
       },
       {
         name: 'Cóctel de la Casa',
         description: 'Pisco sour con twist de maracuyá y espuma de clara',
         price: '$8.990',
         special: 'chef',
-        image: 'https://img-wrapper.vercel.app/image?url=https://placehold.co/400x300/1a1a1a/f97316/png?text=Cóctel'
+        image: '/imgs/menu/pisco.webp'
       }
     ]
   };
